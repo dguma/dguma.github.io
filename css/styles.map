@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss"
+	],
+	"sourcesContent": [
+		"header {\r\n\ttext-align: center;\r\n}\r\n\r\n.body {\r\n\tbackground-color: antiquewhite;\r\n\tmargin: 0;\r\n\tfont-family: 'Nunito', sans-serif;\r\n}\r\n\r\n.headerName {\r\n\tfont-size: 6em;\r\n\tmargin: 0;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACN,UAAU,EAAE,MAAM;CAClB;;;AAED,AAAA,KAAK,CAAC;EACL,gBAAgB,EAAE,YAAY;EAC9B,MAAM,EAAE,CAAC;EACT,WAAW,EAAE,oBAAoB;CACjC;;;AAED,AAAA,WAAW,CAAC;EACX,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,CAAC;CACT"
+}
