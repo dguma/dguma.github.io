@@ -1,14 +1,226 @@
 header {
-	text-align: center;
+	
 }
 
-.body {
-	background-color: antiquewhite;
+body {
 	margin: 0;
 	font-family: 'Nunito', sans-serif;
+	background-color:rgba(47,47,47,.75);
 }
 
-.headerName {
-	font-size: 6em;
-	margin: 0;
+main {
+	display: none;
+}
+
+.overlay-content {
+	
+	.headerName {
+		font-size: 6em;
+		margin: 0;
+		z-index: 1;
+		position: absolute;
+		color: white;
+		animation: intro 1s ease-in forwards;
+	}
+	
+	.profile-pic {
+		border: white solid thin;
+		border-radius: 50%;
+		height: 16em;
+		width: 16em;
+		object-fit: cover;
+		z-index: 2;
+		animation: profile-picture 3s ease-in-out infinite;
+		filter: grayscale(100%);
+		
+		&:hover {
+			filter: none;
+			transform: scale(99%);
+			transition: transform 2s ease;
+		}
+		box-shadow: 0px 0px 6em .5em rgba(255,255,255, .75);
+	}
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+	margin: 10% 0;
+}
+
+.overlay {
+	background-color:rgba(5,4,4,.9);
+	top:0;
+	right: 0;
+	bottom:0;
+	left:0;
+	position: absolute;
+	animation: bounce-background infinite cubic-bezier(.39,1.15,.75,-0.33) 5s;
+	z-index: 0;
+	box-shadow: 0px 0px .5em 1px rgba(0, 0, 0, .75);
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.scroll {
+	align-self: flex-end;
+	text-transform: uppercase;
+	font-size: 1.75em;
+	color: rgba(255,255,255,1.00);
+	animation: fade 5s ease infinite;
+}
+
+.nameSubText {
+	font-size: 2em;
+	color: white;
+	z-index: 2;
+	animation: fadeIn 6s ease forwards;
+}
+
+
+@keyframes profile-picture {
+	100% {opacity: .85}
+	75% {opacity: .65}
+	50% {opacity: .75}
+	25% {opacity: .65}
+	0% {opacity: .85}
+}
+
+@keyframes intro {
+	from{transform: rotateX(90deg)}
+	to{transform: rotateX(0deg)}
+}
+
+@keyframes bounce-background {
+	
+	
+	
+	100% {
+		transform: translateY(0em);
+	}
+	
+	75% {
+		transform: translateY(-1em);
+	}
+	
+	50% {
+		transform: translateY(-2em);
+	}
+	
+	
+	
+	0% {
+		transform: translateY(0em);
+	}
+	
+}
+
+@keyframes fadeIn {
+	from{opacity: 0}
+	to{opacity: 1}
+}
+
+@keyframes fade {
+	
+	
+	
+	100% {
+		opacity: .25;
+	}
+	
+	75% {
+		opacity: .75;
+	}
+	
+	50% {
+		opacity: .5;
+	}
+	
+	25% {
+		opacity: .75;
+	}
+	
+	0% {
+		opacity: .25;
+	}
+	
+}
+
+//signature
+#wrapper {
+//  padding-left: 15px;
+//  padding-right: 15px;
+//  margin: auto;
+	margin-top: 0px;
+	width: 100%;
+	height: 200px;
+	z-index: 2;
+}
+@media (min-width: 768px) {
+  #wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  #wrapper {
+    max-width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #wrapper {
+    max-width: 1050px;
+  }
+}
+@media (min-width: 1500px) {
+  #wrapper {
+    max-width: 1200px;
+  }
+}
+
+
+#signature {
+//  max-width: 350px;
+}
+path {
+  fill: none;
+  stroke: white;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.line1 {
+  stroke-dasharray: 1200;
+  -webkit-animation: write 3s ease-out forwards;
+          animation: write 3s ease-out forwards;
+}
+
+.line2 {
+  stroke-dasharray: 1200;
+  -webkit-animation: write 3s ease-out forwards 2s;
+          animation: write 3s ease-out forwards 2s;
+	opacity: 0;
+}
+@-webkit-keyframes write {
+  0% {
+    stroke-dashoffset: 1200;
+	  opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+	  opacity: 1;
+  }
+}
+
+@keyframes write {
+  0% {
+    stroke-dashoffset: 1200;
+	  opacity: 0;
+  }
+  100% {
+    stroke-dashoffset: 0;
+	  opacity: 1;
+  }
 }
