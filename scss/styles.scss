@@ -44,8 +44,7 @@ main {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	
-	margin: 10% 0;
+	margin-top: 5%;
 }
 
 .overlay {
@@ -76,6 +75,7 @@ main {
 	color: white;
 	z-index: 2;
 	animation: fadeIn 6s ease forwards;
+	margin-top: 6em;
 }
 
 
