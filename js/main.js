@@ -5,7 +5,3 @@ overlay.addEventListener('click', (e) => {
 	e.currentTarget.style.animation = "content-up 1s ease forwards";
 	setTimeout(()=>location.href = 'portfolio.html',1000);
 });
-
-overlay.addEventListener('touchstart', (e) => {
-	e.currentTarget.style.animation = "content-up 1s ease forwards";
-});
