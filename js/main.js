@@ -1,10 +1,12 @@
-// JavaScript Document
-const overlay = document.querySelector('.overlay');
+//JavaScript Document
+const overlay = document.getElementById('overlay');
+const button = document.querySelector('.button');
 
 overlay.addEventListener('click', (e) => {
-	e.target.style.animation = 'none';
+	e.currentTarget.style.animation = "content-up 2s ease forwards";
+	setTimeout(()=>location.href = 'portfolio.html',1900)
 });
 
 overlay.addEventListener('touchstart', (e) => {
-	e.target.style.animation = 'none'; 
+	e.currentTarget.style.animation = "content-up 2s ease forwards";
 });
