@@ -64,8 +64,7 @@ body {
   font-size: 2em;
   color: white;
   z-index: 2;
-  animation: fadeIn 6s ease forwards;
-  margin-top: 6em; }
+  animation: fadeIn 6s ease forwards; }
 
 .main-content-container {
   z-index: 3; }
@@ -411,8 +410,21 @@ path {
     grid-template-columns: 1fr 2fr; }
     .hero .profile {
       width: 20em;
-      height: 20em; } }
+      height: 20em; }
+
+  .nameBottomText {
+    flex-direction: row; }
+    .nameBottomText span {
+      order: 0; }
+    .nameBottomText p {
+      margin-left: 4em; }
+
+  .nameSubText {
+    margin-top: 4em; } }
 @media (min-width: 1024px) {
+  .nameSubText {
+    margin-top: 6em; }
+
   .skillsShowcaseContainer {
     flex-direction: row; }
 
