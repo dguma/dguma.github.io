@@ -400,7 +400,10 @@ path {
   .skillsShowcaseContainer {
     flex-direction: column;
     justify-content: center;
-    align-items: center; } }
+    align-items: center; }
+
+  .nameSubText {
+    margin-top: 0; } }
 @media (min-width: 768px) {
   .skillsShowcaseContainer {
     flex-direction: row; }

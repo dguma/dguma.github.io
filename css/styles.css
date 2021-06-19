@@ -596,67 +596,71 @@ path {
     justify-content: center;
     align-items: center;
   }
+  /* line 557, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  .nameSubText {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 768px) {
-  /* line 560, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 563, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsShowcaseContainer {
     flex-direction: row;
   }
-  /* line 565, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 568, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-  /* line 569, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 572, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero .profile {
     width: 20em;
     height: 20em;
   }
-  /* line 575, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 578, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText {
     flex-direction: row;
   }
-  /* line 577, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 580, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText span {
     order: 0;
   }
-  /* line 580, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 583, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText p {
     margin-left: 4em;
   }
-  /* line 585, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 588, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameSubText {
     margin-top: 4em;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 591, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 594, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameSubText {
     margin-top: 6em;
   }
-  /* line 595, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 598, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsShowcaseContainer {
     flex-direction: row;
   }
-  /* line 600, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 603, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero {
     display: flex;
     flex-direction: row;
   }
-  /* line 604, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 607, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero .profile {
     width: 23em;
     height: 23em;
     margin-right: 0;
   }
-  /* line 610, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 613, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero .logo {
     width: 50%;
     height: 50%;
   }
-  /* line 616, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 619, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .heroContent {
     margin-right: 3em;
   }
