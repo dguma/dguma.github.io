@@ -87,28 +87,29 @@ body {
 .nameSubText {
   font-size: 2em;
   color: white;
-  z-index: 2;
+  z-index: 1;
   animation: fadeIn 6s ease forwards;
+  margin: 0;
 }
 
-/* line 84, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 85, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .main-content-container {
   z-index: 3;
 }
 
-/* line 88, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 89, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .container img {
   width: 100px;
   height: 100px;
 }
 
-/* line 93, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 94, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .container p {
   font-size: 5em;
   color: white;
 }
 
-/* line 98, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 99, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .myName {
   width: 100%;
   display: flex;
@@ -118,12 +119,12 @@ body {
   margin-top: 1em;
 }
 
-/* line 107, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 108, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .myName h3 {
   margin: 0;
 }
 
-/* line 111, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 112, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .skillsShowcaseContainer {
   width: 100%;
   display: flex;
@@ -134,7 +135,7 @@ body {
   margin: 4em 0;
 }
 
-/* line 121, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 122, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer {
   display: flex;
   flex-direction: row;
@@ -146,7 +147,7 @@ body {
   margin: 3em 0 3em;
 }
 
-/* line 131, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 132, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card {
   background-color: rgba(229, 229, 229, 0.35);
   margin: .75em .75em 0;
@@ -155,34 +156,34 @@ body {
   width: 17em;
 }
 
-/* line 138, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 139, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
 }
 
-/* line 143, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 144, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card img {
   width: inherit;
   border-radius: .5em;
 }
 
-/* line 148, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 149, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card h4, .portfolioContainer .card p {
   margin: 0;
 }
 
-/* line 152, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 153, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card h4 {
   margin-bottom: .25em;
 }
 
-/* line 156, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 157, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card p {
   margin-bottom: 1em;
 }
 
-/* line 160, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 161, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card .button {
   width: 4em;
   height: 1em;
@@ -196,13 +197,13 @@ body {
   cursor: pointer;
 }
 
-/* line 172, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 173, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .portfolioContainer .card .button a {
   color: black;
   text-decoration: none;
 }
 
-/* line 181, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 182, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .card-text-container {
   margin: 1em 0;
   display: flex;
@@ -211,7 +212,7 @@ body {
   align-items: center;
 }
 
-/* line 189, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 190, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer {
   display: flex;
   justify-content: center;
@@ -221,43 +222,43 @@ body {
   height: 10em;
 }
 
-/* line 197, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 198, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .github {
   height: 5em;
   width: 5em;
 }
 
-/* line 201, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 202, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .github:hover {
   transform: scale(1.1);
   transition: transform .25s ease;
 }
 
-/* line 206, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 207, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .treehouse {
   height: 5em;
   width: 5em;
 }
 
-/* line 210, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 211, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .treehouse:hover {
   transform: scale(1.1);
   transition: transform .25s ease;
 }
 
-/* line 215, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 216, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .linkedin {
   height: 5em;
   width: 5em;
 }
 
-/* line 219, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 220, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .socialContainer .linkedin:hover {
   transform: scale(1.1);
   transition: transform .25s ease;
 }
 
-/* line 226, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 227, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .hero {
   display: flex;
   flex-direction: column;
@@ -266,7 +267,7 @@ body {
   margin: 3em 0;
 }
 
-/* line 233, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 234, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .hero .profile {
   width: 15em;
   height: 15em;
@@ -274,28 +275,28 @@ body {
   object-fit: cover;
 }
 
-/* line 241, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 242, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .heroContent {
   width: 23em;
   text-align: center;
 }
 
-/* line 245, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 246, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .heroContent h3 {
   color: white;
 }
 
-/* line 249, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 250, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .heroContent h4 {
   color: #43836C;
 }
 
-/* line 254, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 255, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .name {
   height: 5em;
 }
 
-/* line 259, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 260, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .nameBottomText {
   width: 95%;
   display: flex;
@@ -306,25 +307,25 @@ body {
   color: white;
 }
 
-/* line 268, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 269, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .nameBottomText p {
   font-weight: 600;
   font-size: 1.5em;
   color: #E27D60;
 }
 
-/* line 274, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 275, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .nameBottomText a {
   color: white;
 }
 
-/* line 279, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 280, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .skill {
   width: 100px;
   height: 100px;
 }
 
-/* line 284, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 285, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .skillsHeader {
   text-align: center;
   text-transform: uppercase;
@@ -333,7 +334,7 @@ body {
   color: #43836C;
 }
 
-/* line 293, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 294, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #css3 {
   background-image: url("../images/css.png");
   background-size: cover;
@@ -343,14 +344,14 @@ body {
   box-shadow: 0px 0px 1em 1px #C38D9E;
 }
 
-/* line 301, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 302, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #css3:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
   animation: fade 3s ease infinite;
 }
 
-/* line 308, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 309, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #dw {
   background-image: url("../images/dw.png");
   background-size: cover;
@@ -360,14 +361,14 @@ body {
   box-shadow: 0px 0px 1em 1px #C38D9E;
 }
 
-/* line 316, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 317, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #dw:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
   animation: fade 3s ease infinite;
 }
 
-/* line 323, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 324, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #html5 {
   background-image: url("../images/html5.png");
   background-size: cover;
@@ -377,14 +378,14 @@ body {
   box-shadow: 0px 0px 1em 1px #C38D9E;
 }
 
-/* line 331, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 332, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #html5:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
   animation: fade 3s ease infinite;
 }
 
-/* line 339, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 340, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #javascript {
   background-image: url("../images/javascript.png");
   background-size: cover;
@@ -394,14 +395,14 @@ body {
   box-shadow: 0px 0px 1em 1px #C38D9E;
 }
 
-/* line 347, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 348, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #javascript:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
   animation: fade 3s ease infinite;
 }
 
-/* line 354, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 355, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #sass {
   background-image: url("../images/sass.png");
   background-size: cover;
@@ -411,7 +412,7 @@ body {
   box-shadow: 0px 0px 1em 1px #C38D9E;
 }
 
-/* line 362, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 363, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #sass:hover {
   transform: scale(0.99);
   transition: transform .25s ease;
@@ -499,43 +500,43 @@ body {
   }
 }
 
-/* line 453, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 454, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 #wrapper {
   margin-top: 0px;
   width: 100%;
-  height: 200px;
-  z-index: 2;
+  height: 100%;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
-  /* line 460, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 461, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   #wrapper {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 465, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 466, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   #wrapper {
     max-width: 970px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 470, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 471, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   #wrapper {
     max-width: 1050px;
   }
 }
 
 @media (min-width: 1500px) {
-  /* line 475, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 476, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   #wrapper {
     max-width: 1200px;
   }
 }
 
-/* line 480, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 481, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 path {
   fill: none;
   stroke: white;
@@ -545,14 +546,14 @@ path {
   stroke-miterlimit: 10;
 }
 
-/* line 489, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 490, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .line1 {
   stroke-dasharray: 1200;
   -webkit-animation: write 3s ease-out forwards;
   animation: write 3s ease-out forwards;
 }
 
-/* line 495, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+/* line 496, Z:/Team-Treehouse-Project-9/scss/styles.scss */
 .line2 {
   stroke-dasharray: 1200;
   -webkit-animation: write 3s ease-out forwards 2s;
@@ -583,11 +584,11 @@ path {
 }
 
 @media (min-width: 768px) {
-  /* line 527, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 528, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsShowcaseContainer {
     flex-direction: row;
   }
-  /* line 530, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 531, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsShowcaseContainer #css3,
   .skillsShowcaseContainer #dw,
   .skillsShowcaseContainer #html5,
@@ -595,51 +596,43 @@ path {
   .skillsShowcaseContainer #sass {
     margin: 0 1em;
   }
-  /* line 539, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 540, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText {
     flex-direction: row;
     justify-content: space-between;
   }
-  /* line 542, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 543, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText span {
     order: 0;
   }
-  /* line 546, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 547, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .nameBottomText span:first-child {
     padding-right: 7em;
   }
-  /* line 551, Z:/Team-Treehouse-Project-9/scss/styles.scss */
-  .nameSubText {
-    margin-top: 4em;
-  }
-  /* line 555, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 552, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .hero {
     flex-direction: row;
   }
-  /* line 559, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 556, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsHeader {
     margin: 0 7em;
   }
-  /* line 564, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 561, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .portfolioContainer .card {
     width: 20em;
   }
 }
 
 @media (min-width: 1024px) {
-  /* line 571, Z:/Team-Treehouse-Project-9/scss/styles.scss */
-  .nameSubText {
-    margin-top: 6em;
-  }
-  /* line 575, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 569, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsShowcaseContainer {
     flex-direction: row;
   }
-  /* line 580, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 574, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .skillsHeader {
     margin: 0 10em;
   }
-  /* line 585, Z:/Team-Treehouse-Project-9/scss/styles.scss */
+  /* line 579, Z:/Team-Treehouse-Project-9/scss/styles.scss */
   .portfolioContainer .card {
     width: 25em;
   }

@@ -77,8 +77,9 @@ body {
 .nameSubText {
 	font-size: 2em;
 	color: white;
-	z-index: 2;
+	z-index: 1;
 	animation: fadeIn 6s ease forwards;
+	margin: 0;
 }
 
 .main-content-container {
@@ -453,8 +454,8 @@ body {
 #wrapper {
 	margin-top: 0px;
 	width: 100%;
-	height: 200px;
-	z-index: 2;
+	height: 100%;
+	z-index: 1;
 }
 @media (min-width: 768px) {
   #wrapper {
@@ -548,10 +549,6 @@ path {
 		}
 	}
 	
-	.nameSubText {
-		margin-top: 4em;
-	}
-	
 	.hero {
 		flex-direction: row;
 	}
@@ -568,9 +565,6 @@ path {
 }
 
 @media (min-width:1024px) {
-	.nameSubText {
-		margin-top: 6em;
-	}
 	
 	.skillsShowcaseContainer {
 		flex-direction: row;
